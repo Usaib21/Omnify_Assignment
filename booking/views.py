@@ -24,8 +24,8 @@ def book_class(request):
                 client_name=serializer.validated_data['client_name'],
                 client_email=serializer.validated_data['client_email']
             )
-            fitness_class.available_slots -= 1
-            fitness_class.save()
+            # fitness_class.available_slots -= 1
+            # fitness_class.save()
             return Response(BookingSerializer(booking).data, status=status.HTTP_201_CREATED)
         except FitnessClass.DoesNotExist:
             return Response({"error": "Class not found."}, status=status.HTTP_404_NOT_FOUND)
