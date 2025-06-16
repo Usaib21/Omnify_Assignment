@@ -41,7 +41,7 @@ Response:
     "id": 1,
     "name": "Yoga",
     "datetime": "2025-06-17T10:00:00Z",
-    "instructor": "Aman",
+    "instructor": "Bob",
     "available_slots": 5
   },
   {
