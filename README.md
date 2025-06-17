@@ -7,7 +7,7 @@ Simple Django-based API for booking fitness classes (Yoga, Zumba, HIIT).
 ## 🔧 Setup Instructions
 
 ```bash
-git clone (https://github.com/Usaib21/Omnify_Assignment.git)
+git clone https://github.com/Usaib21/Omnify_Assignment.git
 cd fitness_booking
 
 python -m venv .venv
